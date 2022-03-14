@@ -26,6 +26,7 @@ body {
   background-color: var(--color__white);
   color: var(--color__black);
   font-family: "DM Sans", "Helvetica", sans-serif;
+  overflow-x: hidden;
 }
 
 a {

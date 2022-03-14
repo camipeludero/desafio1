@@ -1,83 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio Webpage</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/css/styles.css">
-</head>
-    
-<header>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+
+  <header>
     <nav id="navbar">
-      <div id="logo"><a href="#welcome-section"><h1 class="logo">HM
-          <span class="primary-font">*</span>
-      </h1></a></div>
-       <div class="hamburguer"><span class="iconify" data-icon="bx:bx-menu-alt-right" data-inline="false"></span></div>
+      <div id="logo">
+        <a href="#welcome-section"
+          ><span class="logo">
+            HM
+            <span class="primary-font">*</span>
+          </span></a
+        >
+      </div>
+      <div class="hamburguer">
+        <span
+          class="iconify"
+          data-icon="bx:bx-menu-alt-right"
+          data-inline="false"
+        ></span>
+      </div>
       <div class="links">
         <a href="#experience" class="navlink">Experience</a>
-        <a href="#philo" class="navlink">About me</a>
+        <a href="#about" class="navlink">About me</a>
         <a href="#projects" class="navlink">Work</a>
         <a href="#contact" class="navlink">Contact</a>
       </div>
     </nav>
   </header>
-  
+
   <body>
     <div id="section-wrapper">
-      <section id="welcome-section">
-        <div class="mainImage"><img src="/images/picture.jpg" alt="Profile Picture"></div>
-        <div class="mainText">
-          <h1 class="primary-font">Hi! I'm Helen<br />
+      <section id="welcome-section" data-aos-anchor-placement="top-bottom">
+        <div class="mainImage">
+          <img src="/images/picture.jpg" alt="Profile Picture" />
+        </div>
+        <div class="mainText" data-aos="fade-up">
+          <h1 class="primary-font">
+            Hi! I'm Helen<br />
             <span class="secondary-font">Digital</span>
-             Designer,<br />Photographer
-            <br /><span class="secondary-font text-italic">& Dreamer</span></h1>
-          
+            Designer,<br />Photographer <br /><span
+              class="secondary-font text-italic"
+              >& Dreamer</span
+            >
+          </h1>
         </div>
       </section>
-      <section class="about">
+      <section class="about" id="about" data-aos="fade-left">
         <div class="aboutset">
-          <h2 class="primary-font">I ❤
-            <span class="secondary-font">DESIGN</span></h2>
-          <p class="p_18">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nisi augue, fermentum eget libero sit amet, varius finibus massa. Nullam eu elit placerat,dignissim nisi sit amet, lacinia mauris. </p>
+          <h2 class="primary-font">
+            I ❤ <span class="secondary-font">DESIGN</span>
+          </h2>
+          <p class="p_18">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nisi
+            augue, fermentum eget libero sit amet, varius finibus massa. Nullam
+            eu elit placerat,dignissim nisi sit amet, lacinia mauris.
+          </p>
         </div>
         <div class="education">
-          <span class="iconify about_item" data-icon="cil:education" data-inline="false"></span>
+          <span
+            class="iconify about_item"
+            data-icon="cil:education"
+            data-inline="false"
+          ></span>
           <h4 class="primary-font">Education</h4>
-          <p class="p_18">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem neque sint eveniet enim tempora consectetur veniam quia hic, illo architecto!</p>
+          <p class="p_18">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem
+            neque sint eveniet enim tempora consectetur veniam quia hic, illo
+            architecto!
+          </p>
         </div>
         <div class="experience">
-          <span class="iconify about_item" data-icon="ic:outline-work-outline" data-inline="false"></span>
+          <span
+            class="iconify about_item"
+            data-icon="ic:outline-work-outline"
+            data-inline="false"
+          ></span>
           <h4 class="primary-font">Experience</h4>
-          <p class="p_18">Proin nisi augue, fermentum eget libero sit amet, varius finibus massa. Nullam eu elit placerat,dignissim nisi sit amet, lacinia mauris.</p>
+          <p class="p_18">
+            Proin nisi augue, fermentum eget libero sit amet, varius finibus
+            massa. Nullam eu elit placerat,dignissim nisi sit amet, lacinia
+            mauris.
+          </p>
         </div>
         <div class="travel">
-          <span class="iconify about_item" data-icon="ic:baseline-mode-of-travel" data-inline="false"></span>
+          <span
+            class="iconify about_item"
+            data-icon="ic:baseline-mode-of-travel"
+            data-inline="false"
+          ></span>
           <h4 class="primary-font">Travelling</h4>
-          <p class="p_18">Hic ipsum animi molestias maiores architecto possimus. Iusto dicta quaerat eius et, dolores tenetur non, alias aliquid sed at voluptatibus molestiae?</p>
+          <p class="p_18">
+            Hic ipsum animi molestias maiores architecto possimus. Iusto dicta
+            quaerat eius et, dolores tenetur non, alias aliquid sed at
+            voluptatibus molestiae?
+          </p>
         </div>
         <div class="photo">
-          <span class="iconify about_item" data-icon="clarity:camera-line" data-inline="false"></span>
+          <span
+            class="iconify about_item"
+            data-icon="clarity:camera-line"
+            data-inline="false"
+          ></span>
           <h4 class="primary-font">Photography</h4>
-          <p class="p_18">Sequi impedit quos voluptates fuga, officia animi accusantium reprehenderit iusto adipisci magnam maxime, itaque voluptatum provident molestiae incidunt atque quisquam distinctio, quasi mollitia eligendi?</p>
+          <p class="p_18">
+            Sequi impedit quos voluptates fuga, officia animi accusantium
+            reprehenderit iusto adipisci magnam maxime, itaque voluptatum
+            provident molestiae incidunt atque quisquam distinctio, quasi
+            mollitia eligendi?
+          </p>
         </div>
       </section>
       <div class="langScroll">
-        <div class="lang"><span class="iconify" data-icon="cib-html5-shield" data-inline="false"></span></div>
-        <div class="lang"><span class="iconify" data-icon="cib:css3-shiled" data-inline="false"></span></div>
-        <div class="lang"><span class="iconify" data-icon="cib:js" data-inline="false"></span></div>
-        <div class="lang"><span class="iconify" data-icon="cib:react" data-inline="false"></span></div>
+        <div class="lang">
+          <span
+            class="iconify"
+            data-icon="cib-html5-shield"
+            data-inline="false"
+          ></span>
+        </div>
+        <div class="lang">
+          <span
+            class="iconify"
+            data-icon="cib:css3-shiled"
+            data-inline="false"
+          ></span>
+        </div>
+        <div class="lang">
+          <span class="iconify" data-icon="cib:js" data-inline="false"></span>
+        </div>
+        <div class="lang">
+          <span
+            class="iconify"
+            data-icon="cib:react"
+            data-inline="false"
+          ></span>
+        </div>
       </div>
       <section class="skills">
-        <div class="skills__content">
-          <h2
-            class="skills__title"
-          >
+        <div class="skills__content" data-aos="fade-down">
+          <h2 class="skills__title">
             <span class="text-span text-weight-normal secondary-font">My</span>
             <span class="primary-font">Skills.</span>
           </h2>
@@ -85,8 +158,8 @@
             <div class="skill__wrapper border-bottom" id="skill_1">
               <div class="skill__item heading-small primary-font collapse">
                 <a class="skill__title">
-                    <h2 class="primary-font">Product Design</h2>
-                  </a>
+                  <h2 class="primary-font">Product Design</h2>
+                </a>
                 <div class="skill__icon center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -129,8 +202,8 @@
             <div class="skill__wrapper border-bottom" id="skill_2">
               <div class="skill__item heading-small primary-font collapse">
                 <a class="skill__title">
-                    <h2 class="primary-font">Web Design</h2>
-                  </a>
+                  <h2 class="primary-font">Web Design</h2>
+                </a>
                 <div class="skill__icon center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -173,8 +246,8 @@
             <div class="skill__wrapper border-bottom" id="skill_3">
               <div class="skill__item heading-small primary-font collapse">
                 <a class="skill__title">
-                    <h2 class="primary-font">UI/UX Design</h2>
-                  </a>
+                  <h2 class="primary-font">UI/UX Design</h2>
+                </a>
                 <div class="skill__icon center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -246,9 +319,7 @@
                   </p>
                 </div>
                 <div class="skill__info info__right">
-                  <p
-
-                  >
+                  <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Laborum eveniet eius labore commodi, esse deleniti officiis
                     voluptatem culpa sint neque reiciendis mollitia aperiam
@@ -265,101 +336,214 @@
         </div>
         <!--.skills__content-->
       </section>
-      
+
       <section id="experience">
         <div id="expTitle">
           <p class="overline_16">WORK EXPERIENCE</p>
           <h2>Where I have worked for in the past.</h2>
         </div>
         <div id="expTile">
-          <div class="exptile">
+          <div
+            class="exptile"
+            data-aos="flip-left"
+            data-aos-duration="1000"
+            data-aos-delay="0"
+          >
             <p class="label_120 primary-font">01</p>
-            <p class="overline_24"><span class="green">Google</span>, Interaction Designer</p>
-            <p class="overline_16">I'm currently the lead designer on the interaction design team for Google Play</p>
+            <p class="overline_24">
+              <span class="green">Google</span>, Interaction Designer
+            </p>
+            <p class="overline_16">
+              I'm currently the lead designer on the interaction design team for
+              Google Play
+            </p>
           </div>
-          <div class="exptile">
+          <div
+            class="exptile"
+            data-aos="flip-left"
+            data-aos-duration="1000"
+            data-aos-delay="150"
+          >
             <p class="label_120 primary-font">02</p>
-            <p class="overline_24"><span class="blue">Facebook</span>, Product Designer</p>
-            <p class="overline_16">I've worked on a wide variety of interal tools for Facebook over the past 6 years.</p>
+            <p class="overline_24">
+              <span class="blue">Facebook</span>, Product Designer
+            </p>
+            <p class="overline_16">
+              I've worked on a wide variety of interal tools for Facebook over
+              the past 6 years.
+            </p>
           </div>
-          <div class="exptile">
+          <div
+            class="exptile"
+            data-aos="flip-left"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
             <p class="label_120 primary-font">03</p>
-            <p class="overline_24"><span class="pink">Dribble</span>, Graphic Designer</p>
-            <p class="overline_16">I started my career with Dribble. I was incharge of creating illustrations for the platform.</p>
+            <p class="overline_24">
+              <span class="pink">Dribble</span>, Graphic Designer
+            </p>
+            <p class="overline_16">
+              I started my career with Dribble. I was incharge of creating
+              illustrations for the platform.
+            </p>
           </div>
         </div>
       </section>
-      
-     
+
       <section id="projects">
         <div id="projectsTitle">
           <p class="overline_16">MY WORK</p>
           <h2 class="primary-font">A selection of my best projects</h2>
         </div>
-       
-    <div id="tileContainer">
-      <div class="project-tile">
-        <div class="tileImg"><img src="images/legrand.jpg" alt=""></div>
-        <div class="tileCaption">
-           <h3>
-            <span class="primary-font">LeGrand</span>   
-             Branding</h3>
-           <p class="p_18">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis perspiciatis facere corrupti illum, possimus voluptatibus molestiae qui tempore asperiores rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.</p></div>
-          <div class="tileButton"> <button type="button" class="works_btn"><span class="iconify works" data-icon="bi:box-arrow-up-right" data-inline="false"></span></button></div>
-      </div>
-      <div class="project-tile">
-        <div class="tileImg"><img src="images/course.jpg" alt=""></div>
-        <div class="tileCaption"> <h3>
-            <span class="primary-font">Course</span>   
-             Website</h3>
-            <p class="p_18">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, mollitia eligendi. Deleniti quaerat aliquam repudiandae eos? Nulla modi necessitatibus possimus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, voluptas!</p></div><div class="tileButton"><button type="button" class="works_btn"><span class="iconify works" data-icon="bi:box-arrow-up-right" data-inline="false"></span></button></div>
-      </div>
-      <div class="project-tile">
-        <div class="tileImg"><img src="images/livedata.jpg" alt=""></div>
-        <div class="tileCaption"><h3>
-            <span class="primary-font">LiveData</span>   
-             Design</h3>
-            <p class="p_18">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda distinctio deleniti cupiditate praesentium temporibus impedit explicabo voluptatem nesciunt laudantium accusamus. Lorem ipsum dolor sit amet.</p></div><div class="tileButton"><button type="button" class="works_btn"><span class="iconify works" data-icon="bi:box-arrow-up-right" data-inline="false"></span></button></div>
-      </div>
-  </div>     
-    
+
+        <div id="tileContainer">
+          <div class="project-tile" data-aos="fade-down" data-aos-delay="0">
+            <div class="tileImg"><img src="images/legrand.jpg" alt="" /></div>
+            <div class="tileCaption">
+              <h3>
+                <span class="primary-font">LeGrand</span>
+                Branding
+              </h3>
+              <p class="p_18">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Blanditiis perspiciatis facere corrupti illum, possimus
+                voluptatibus molestiae qui tempore asperiores rerum. Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor
+                sit.
+              </p>
+            </div>
+            <div class="tileButton">
+              <button type="button" class="works_btn">
+                <span
+                  class="iconify works"
+                  data-icon="bi:box-arrow-up-right"
+                  data-inline="false"
+                ></span>
+              </button>
+            </div>
+          </div>
+          <div class="project-tile" data-aos="fade-down" data-aos-delay="150">
+            <div class="tileImg"><img src="images/course.jpg" alt="" /></div>
+            <div class="tileCaption">
+              <h3>
+                <span class="primary-font">Course</span>
+                Website
+              </h3>
+              <p class="p_18">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Laboriosam, mollitia eligendi. Deleniti quaerat aliquam
+                repudiandae eos? Nulla modi necessitatibus possimus! Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Provident,
+                voluptas!
+              </p>
+            </div>
+            <div class="tileButton">
+              <button type="button" class="works_btn">
+                <span
+                  class="iconify works"
+                  data-icon="bi:box-arrow-up-right"
+                  data-inline="false"
+                ></span>
+              </button>
+            </div>
+          </div>
+          <div class="project-tile" data-aos="fade-down" data-aos-delay="300">
+            <div class="tileImg"><img src="images/livedata.jpg" alt="" /></div>
+            <div class="tileCaption">
+              <h3>
+                <span class="primary-font">LiveData</span>
+                Design
+              </h3>
+              <p class="p_18">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Assumenda distinctio deleniti cupiditate praesentium temporibus
+                impedit explicabo voluptatem nesciunt laudantium accusamus.
+                Lorem ipsum dolor sit amet.
+              </p>
+            </div>
+            <div class="tileButton">
+              <button type="button" class="works_btn">
+                <span
+                  class="iconify works"
+                  data-icon="bi:box-arrow-up-right"
+                  data-inline="false"
+                ></span>
+              </button>
+            </div>
+          </div>
+        </div>
+
         <div id="projectsButton">
-           <button type="button" class="viewall_btn">VIEW ALL</button>
+          <button type="button" class="viewall_btn">VIEW ALL</button>
         </div>
       </section>
       <section id="contact">
-        <div id="contactText">
+        <div id="contactText" data-aos="fade-down">
           <h2 class="primary-font">Let's work together</h2>
-          <p class="p_18">Now that you know a lot about me, let me know if you are interested to work with me.</p>
+          <p class="p_18">
+            Now that you know a lot about me, let me know if you are interested
+            to work with me.
+          </p>
         </div>
         <div id="contactForm">
           <form action="#">
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name" class="inputArea"><br>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" class="inputArea"><br>
-            <label for="message">Message:</label><br>
-            <textarea name="mensaje" class="inputArea" style="resize:none" rows="3"></textarea><br>
-            <br>
-            <input type="submit" class="contactButton" value="SEND MESSAGE">
+            <label for="name">Name:</label><br />
+            <input type="text" id="name" name="name" class="inputArea" /><br />
+            <label for="email">Email:</label><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="inputArea"
+            /><br />
+            <label for="message">Message:</label><br />
+            <textarea
+              name="mensaje"
+              class="inputArea"
+              style="resize: none"
+              rows="3"
+              id="message"
+            ></textarea
+            ><br />
+            <br />
+            <input type="submit" class="contactButton" value="SEND MESSAGE" />
           </form>
         </div>
       </section>
       <footer>
         <div id="footer">
           <div class="footerLogo">
-            <a href="#welcome-section"><h1 class="logo">HM
-                    <span class="primary-font">*</span>
-                </h1>
+            <a href="#welcome-section"
+              ><h1 class="logo">
+                HM
+                <span class="primary-font">*</span>
+              </h1>
             </a>
-          <div id="footerIcons">
-            <a href="https://instagram.com/" target="_blank">
-              <span class="iconify social" data-icon="cib:instagram" data-inline="false"></span></a>
-            <a href="https://github.com/" target="_blank" id="profile-link">
-              <span class="iconify social" data-icon="cib:github" data-inline="false"></span></a>
-            <a href="https://linkedin.com/" target="_blank">
-              <span class="iconify social" data-icon="cib:linkedin" data-inline="false"></span></a>
-            </div></div>
+            <div id="footerIcons">
+              <a href="https://instagram.com/" target="_blank">
+                <span
+                  class="iconify social"
+                  data-icon="cib:instagram"
+                  data-inline="false"
+                ></span
+              ></a>
+              <a href="https://github.com/" target="_blank" id="profile-link">
+                <span
+                  class="iconify social"
+                  data-icon="cib:github"
+                  data-inline="false"
+                ></span
+              ></a>
+              <a href="https://linkedin.com/" target="_blank">
+                <span
+                  class="iconify social"
+                  data-icon="cib:linkedin"
+                  data-inline="false"
+                ></span
+              ></a>
+            </div>
+          </div>
           <div class="footerMenu left">
             <ul>
               <li><a href="#welcome-section" class="footerLink">Home</a></li>
@@ -378,7 +562,12 @@
         </div>
         <p>No Copyright | Desafío 1 - React GO Codo a Codo - Camila Astrada</p>
       </footer>
-      <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-      <script src="/js/scripts.js"></script>
-</body>
+    </div>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/js/scripts.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
